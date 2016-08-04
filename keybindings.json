@@ -1,0 +1,20 @@
+// vscode config 将键绑定放入此文件中以覆盖默认值
+[
+    {
+        "key": "ctrl+alt+l",
+        "command": "editor.action.format",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "editor.foldAll"
+    },
+    {
+        "key": "ctrl+shift+alt+a",
+        "command": "editor.unfoldAll"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "deleteAllLeft"
+    }
+]
